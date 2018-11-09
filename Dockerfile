@@ -17,7 +17,7 @@ RUN mkdir /app
 WORKDIR /app
 
 #下载云监工源代码
-RUN git clone https://github.com/hauntek/crysadm.git
+RUN git clone https://github.com/mstalent/crysadm.git
 
 #Redis数据库保存目录
 VOLUME ["/var/lib/redis"]
